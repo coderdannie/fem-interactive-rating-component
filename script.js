@@ -7,6 +7,8 @@ btn.addEventListener("click", function () {
   console.log(feedbackContainer);
   if (feedbackContainer.classList.contains("submitted")) {
     feedbackContainer.classList.remove("submitted");
+  } else {
+    feedbackContainer.classList.add("submitted");
   }
   reviewSelector;
 });

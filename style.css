@@ -158,3 +158,6 @@ body {
 .activeColor {
   background-color: hsl(217, 12%, 63%);
 }
+.attribution a {
+  color: var(--darkblue);
+}
